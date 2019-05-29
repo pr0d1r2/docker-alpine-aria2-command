@@ -87,4 +87,6 @@ echo rpc-secret=$ARIA2_RPC_SECRET >> /etc/aria2/aria2.conf
 
 echo check-certificate=$ARIA2_CHECK_CERTIFICATE >> /etc/aria2/aria2.conf
 
+echo disable-ipv6 >> /etc/aria2/aria2.conf
+
 mkdir -p $ARIA2_DIR
