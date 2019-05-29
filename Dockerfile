@@ -15,6 +15,7 @@ RUN apk add --no-cache --virtual .build-deps build-base curl \
     && apk del .build-deps \
     && rm -rf /tmp
 
-EXPOSE 6800
+EXPOSE 6925
+EXPOSE 6888
 
 ADD root /

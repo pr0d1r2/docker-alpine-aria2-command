@@ -29,4 +29,4 @@ docker pull evild/alpine-aria2:latest
 
 
 ## Basic usage
-```docker run -p 6800:6800 -e ARIA2_SECRET_TOKEN=mysecretoken --name aria2 evild/alpine-aria2```
+```docker run -p 6925:6925 -p 6888:6888 -e ARIA2_SECRET_TOKEN=mysecretoken --name aria2 evild/alpine-aria2```
