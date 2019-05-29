@@ -53,7 +53,6 @@ echo bt-request-peer-speed-limit=$ARIA2_BT_REQUEST_PEER_SPEED_LIMIT >> /etc/aria
 
 echo max-overall-upload-limit=$ARIA2_MAX_OVERALL_UPLOAD_LIMIT >> /etc/aria2/aria2.conf
 
-echo dht-file-path=/tmp/dht.dat >> /etc/aria2/aria2.conf
 echo dht-listen-port=$ARIA2_DHT_LISTEN_PORT >> /etc/aria2/aria2.conf
 echo enable-dht=$ARIA2_ENABLE_DHT >> /etc/aria2/aria2.conf
 echo enable-peer-exchange=$ARIA2_ENABLE_PEER_EXCHANGE >> /etc/aria2/aria2.conf
