@@ -1,5 +1,5 @@
 FROM evild/alpine-base:2.0.0
-MAINTAINER Dominique HAAS <contact@dominique-haas.fr>
+MAINTAINER Marcin Nowicki <pr0d1r2@gmail.com>
 
 ARG ARIA2_VERSION=1.22.0
 
